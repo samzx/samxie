@@ -1,4 +1,4 @@
-# sx
+# samxie
 
 ## Project setup
 ```
