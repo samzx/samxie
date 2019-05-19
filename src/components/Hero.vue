@@ -4,7 +4,7 @@
       <h1 class="title">Sam Xie</h1>
       <h1>I'm an <i>Indie maker</i></h1>
       <p>I design, develop and launch new products.</p>
-      <p>Fully bootstrapped and fully independant.</p>
+      <p>Fully bootstrapped and fully independent.</p>
     </div>
     <div class="right">
       <div class="image">
@@ -50,6 +50,7 @@ export default {
   height: 300px;
   width: 100%;
   display: flex;
+  justify-content: center;
   /* animation-name: example;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -71,6 +72,7 @@ export default {
 .image img {
   margin: auto;
   width: 100%;
+  max-width: 300px;
   position: absolute;
 }
 
