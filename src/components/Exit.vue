@@ -2,32 +2,27 @@
   <div class="exit main">
     <h1 class="title">Perspectives</h1>
     <div class="card">
-      <div class="left" v-on:click="open('/blog')">
+      <a class="left" href="/blog">
         <div class="text">
           <h1>Blog</h1>
           <p>The journey of an indie maker</p>
         </div>
         <div class="image"></div>
-      </div>
-      <div class="right" v-on:click="open('https://twitter.com/samxstudio')">
+      </a>
+      <a class="right" href="https://twitter.com/samxstudio">
         <div class="text">
           <h1>Twitter</h1>
           <p>@samxstudio</p>
         </div>
         <div class="image"></div>
-      </div>
+      </a>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Exit',
-  methods: {
-    open: (url) => {
-      window.location.href = url
-    }
-  }
+  name: 'Exit'
 }
 </script>
 
@@ -41,7 +36,6 @@ export default {
 }
 
 .left:hover, .right:hover {
-  cursor: pointer;
   box-shadow: 0 0 20px 5px rgba(0,0,0,0.1);
 }
 

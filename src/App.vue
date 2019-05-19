@@ -29,16 +29,12 @@ body {
 }
 
 a {
-  color: blue;
+  color: #2c3e50;
   text-decoration: none;
 }
 
 a.disabled {
   color: grey;
-}
-
-a:hover {
-  cursor: pointer;
 }
 
 a.disabled:hover {

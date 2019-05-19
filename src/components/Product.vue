@@ -1,8 +1,8 @@
 <template>
   <div class="product">
     <div class="left">
-      <div v-if="hasLink(product)" v-on:click="open(getUrl(product))" class="icon"></div>
-      <div v-else class="icon disabled"></div>
+      <a v-if="hasLink(product)" class="icon" v-bind:href="getUrl(product)"></a>
+      <a v-else class="icon disabled"></a>
     </div>
     <div class="right">
       <h1>{{product.name}}</h1>
@@ -11,8 +11,8 @@
       </div>
       <div class="links">
         <div v-for="(link, index) in product.links" :key="`product-link-${index}`" class="link">
-          <a v-if="link.url" v-bind:href="link.url" target="_blank">{{link.name}}</a>
-          <a v-else class="disabled">{{link.name}}</a>
+          <a v-if="link.url" v-bind:href="link.url" target="_blank" class="button">{{link.name}}</a>
+          <a v-else class="button disabled">{{link.name}}</a>
         </div>
       </div>
     </div>
@@ -52,10 +52,10 @@ export default {
   transition: box-shadow 0.3s;
   background-color: #21D4FD;
   background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-  cursor: pointer;
   text-align: center;
   color:white;
   font-weight: 900;
+  display: block;
 }
 
 .icon:hover {
@@ -83,11 +83,16 @@ export default {
 }
 
 .link {
+  display: inline-block;
+}
+
+.button {
   margin-right: 10px; 
   padding: 5px 10px;
   border-radius: 5px;
   border: 1px solid #ddd;
   display: inline-block;
+  transition: all 0.3s;
 }
 
 </style>
