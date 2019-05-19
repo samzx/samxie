@@ -75,7 +75,7 @@ a.disabled:hover {
 .product {
   display: flex;
   flex-wrap: wrap;
-  margin: 80px 20px;
+  margin: 60px 20px;
 }
 
 .left {

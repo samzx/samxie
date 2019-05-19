@@ -1,7 +1,7 @@
 <template>
   <div class="hero main">
     <div class="left">
-      <h1 class="title">Sam Xie</h1>
+      <h1 class="title" id="title">Sam Xie</h1>
       <h1>I'm an <i>Indie maker</i></h1>
       <p>I design, develop and launch new products.</p>
       <p>Fully bootstrapped and fully independent.</p>
@@ -22,6 +22,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+#title {
+  font-size: 4em;
+}
+
 .hero {
   display: flex;
   flex-wrap: wrap;
