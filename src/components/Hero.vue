@@ -9,7 +9,6 @@
     <div class="right">
       <div class="image">
         <div class="image-background"></div>
-        <img alt="Vue logo" src="../assets/developer.svg">
       </div>
     </div>
   </div>

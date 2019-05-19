@@ -62,8 +62,14 @@ export default {
   box-shadow: 0 0 5px 2px rgba(0,0,0,0.1);
 }
 
-.disabled {
+a.disabled {
+  color: grey;
+}
+
+a.disabled:hover {
+  color: grey;
   cursor: not-allowed;
+  box-shadow: 0 0 0 0 rgba(0,0,0,0);
 }
 
 .product {
@@ -87,12 +93,17 @@ export default {
 }
 
 .button {
-  margin-right: 10px; 
+  margin-right: 10px;
+  margin-bottom: 10px;
   padding: 5px 10px;
   border-radius: 5px;
   border: 1px solid #ddd;
   display: inline-block;
   transition: all 0.3s;
+}
+
+.button:hover {
+  box-shadow: 0 0 5px 2px rgba(0,0,0,0.05);
 }
 
 </style>

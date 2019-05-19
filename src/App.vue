@@ -33,15 +33,6 @@ a {
   text-decoration: none;
 }
 
-a.disabled {
-  color: grey;
-}
-
-a.disabled:hover {
-  color: grey;
-  cursor: not-allowed;
-}
-
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
