@@ -31,7 +31,6 @@ export default {
 .left {
   flex: 1;
   min-width: 300px;
-  margin: 20px;
 }
 
 .right {
