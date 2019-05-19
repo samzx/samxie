@@ -13,6 +13,7 @@ import Product from './Product.vue'
 const products = [
   {
     name: "GradPlanner",
+    icon: "🎓",
     descriptions: ["Helping graduating students find jobs."],
     links: [
       {
@@ -22,15 +23,16 @@ const products = [
   },
   {
     name: "MPHWatch",
+    icon: "🖥",
     descriptions: ["Stats for cryptocurrency miners mining on Mining Pool Hub.", "Clean and simple interface for monitoring mining activity."],
     links: [
       {
-        name: "Live",
-        url: "https://mphwatch.samxie.net"
-      },
-      {
         name: "Demo",
         url: "https://mphwatch.samxie.net/demo"
+      },
+      {
+        name: "Live",
+        url: "https://mphwatch.samxie.net"
       },
       {
         name: "Github",
@@ -40,6 +42,7 @@ const products = [
   },
   {
     name: "BookIT Maps",
+    icon: "📚",
     descriptions: ["BookIT Maps guides users to find the location of their bookings through an interactive map."],
     links: [
       {

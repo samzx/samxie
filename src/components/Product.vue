@@ -1,9 +1,8 @@
 <template>
   <div class="product">
     <div class="left">
-      <div class="icon">
-
-      </div>
+      <div v-if="hasLink(product)" v-on:click="open(getUrl(product))" class="icon"></div>
+      <div v-else class="icon disabled"></div>
     </div>
     <div class="right">
       <h1>{{product.name}}</h1>
@@ -26,6 +25,18 @@ export default {
   props: {
     product: Object,
   },
+  methods: {
+    open: (url) => {
+      window.open(url)
+    },
+    hasLink: (product) => {
+      return product.links.map(link => link.url).filter(url => url != undefined).length > 0
+    },
+    getUrl: (product) => {
+      const firstLink = product.links[0]
+      return firstLink ? firstLink.url : '/'
+    }
+  }
 }
 </script>
 
@@ -41,10 +52,18 @@ export default {
   transition: box-shadow 0.3s;
   background-color: #21D4FD;
   background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  cursor: pointer;
+  text-align: center;
+  color:white;
+  font-weight: 900;
 }
 
 .icon:hover {
   box-shadow: 0 0 5px 2px rgba(0,0,0,0.1);
+}
+
+.disabled {
+  cursor: not-allowed;
 }
 
 .product {
@@ -70,4 +89,5 @@ export default {
   border: 1px solid #ddd;
   display: inline-block;
 }
+
 </style>

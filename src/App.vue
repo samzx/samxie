@@ -55,7 +55,7 @@ a.disabled:hover {
   padding-top: 50px;
   padding-bottom: 100px;
   max-width: 1080px;
-  background: #eee;
+  /* background: #eee; */
 }
 
 .title {
@@ -71,7 +71,11 @@ a.disabled:hover {
     font-size: 3em;
   }
   .main {
-    padding: 50px 20px;
+    padding: 20px 20px;
+  }
+  #app {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 

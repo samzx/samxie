@@ -7,7 +7,10 @@
       <p>Fully bootstrapped and fully independant.</p>
     </div>
     <div class="right">
-      <div class="image"></div>
+      <div class="image">
+        <div class="image-background"></div>
+        <img alt="Vue logo" src="../assets/developer.svg">
+      </div>
     </div>
   </div>
 </template>
@@ -26,7 +29,7 @@ export default {
 }
 
 .left {
-  flex: 1.61;
+  flex: 1;
   min-width: 300px;
   margin: 20px;
 }
@@ -37,24 +40,43 @@ export default {
   min-height: 300px;
   margin: 20px;
   position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .image {
   position: absolute;
-  height: 100%;
+  height: 300px;
   width: 100%;
-  background-color: #21D4FD;
-  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-  animation-name: example;
+  display: flex;
+  /* animation-name: example;
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out; */
+}
+
+.image-background {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  mask: url(../assets/stroke.png);
+  mask-repeat: no-repeat;
+  mask-size: contain;
+}
+
+.image img {
+  margin: auto;
+  width: 100%;
+  position: absolute;
 }
 
 @keyframes example {
-  0%   {transform: translateY(-10px);}
-  100% {transform: translateY(10px);}
+  0%   {transform: translateY(10px);}
+  100% {transform: translateY(0px);}
 }
 
 @media only screen and (max-width: 600px) {
