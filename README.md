@@ -1,5 +1,7 @@
 # samxie
 
+<img src="https://res.cloudinary.com/xielabs/image/upload/v1558784558/samxie-landing.png" />
+
 ## Project setup
 ```
 yarn install
