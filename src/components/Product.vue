@@ -11,7 +11,7 @@
       </div>
       <div class="links">
         <div v-for="(link, index) in product.links" :key="`product-link-${index}`" class="link">
-          <a v-if="link.url" v-bind:href="link.url" target="_blank" class="button">{{link.name}}</a>
+          <a v-if="link.url" v-bind:href="link.url" class="button">{{link.name}}</a>
           <a v-else class="button disabled">{{link.name}}</a>
         </div>
       </div>
