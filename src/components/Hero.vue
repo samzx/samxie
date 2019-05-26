@@ -40,7 +40,7 @@ export default {
 }
 
 .hero-container {
-  height: calc(100vh - 100px);
+  height: calc(100vh - 120px);
   max-height: 720px;
   min-height: 600px;
   display: flex;
