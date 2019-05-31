@@ -42,6 +42,7 @@ a {
   padding-top: 50px;
   padding-bottom: 100px;
   max-width: 1080px;
+  line-height: 1.4;
   /* background: #eee; */
 }
 
