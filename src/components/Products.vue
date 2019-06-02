@@ -13,7 +13,7 @@ import Product from './Product.vue'
 const products = [
   {
     name: "GradPlanner",
-    icon: "🎓",
+    icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_45/v1559457508/gradplanner.png",
     descriptions: ["Helping graduating students find jobs."],
     links: [
       {
@@ -23,7 +23,7 @@ const products = [
   },
   {
     name: "MPHWatch",
-    icon: "🖥",
+    icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_45/v1559457507/MPHWatch_logo.png",
     descriptions: ["Stats for cryptocurrency miners mining on Mining Pool Hub.", "Clean and simple interface for monitoring mining activity."],
     links: [
       {
@@ -37,12 +37,16 @@ const products = [
       {
         name: "Github",
         url: "https://github.com/samzx/mphwatch"
+      },
+      {
+        name: "Retro",
+        url: "https://www.samxie.net/blog/mphwatch-retrospective/"
       }
     ]
   },
   {
     name: "BookIT Maps",
-    icon: "📚",
+    icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_45/v1559457508/bookitmaps-logo.png",
     descriptions: ["BookIT Maps guides users to find the location of their bookings through an interactive map."],
     links: [
       {
@@ -52,6 +56,10 @@ const products = [
       {
         name: "Github",
         url: "https://github.com/samzx/bookit-maps-front"
+      },
+      {
+        name: "Retro",
+        url: "https://www.samxie.net/blog/bookit-maps-retrospective/"
       }
     ]
   }

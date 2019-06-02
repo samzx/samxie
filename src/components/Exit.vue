@@ -7,14 +7,14 @@
           <h1>Blog</h1>
           <p>The journey of an indie maker</p>
         </div>
-        <div class="image"></div>
+        <div class="blog-image"></div>
       </a>
       <a class="right" href="https://twitter.com/samxstudio">
         <div class="text">
           <h1>Twitter</h1>
           <p>@samxstudio</p>
         </div>
-        <div class="image"></div>
+        <div class="twitter-image"></div>
       </a>
     </div>
   </div>
@@ -37,6 +37,7 @@ export default {
 
 .left:hover, .right:hover {
   box-shadow: 0 0 20px 5px rgba(0,0,0,0.1);
+  transform: scale(1.02);
 }
 
 .left, .right {
@@ -49,18 +50,35 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transition: all 0.3s;
 }
 
 .text {
   padding: 20px;
 }
 
-.image {
+.blog-image {
   height: 120px;
   width: 100%;
   border-radius: 0 0px 10px 10px;
   background-color: #21D4FD;
   background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  mask: url("https://res.cloudinary.com/xielabs/image/upload/c_scale,w_300/v1559459519/blog-logo.png");
+  mask-repeat: no-repeat;
+  mask-size: 200px;
+  mask-position: 55px 20%;
+}
+
+.twitter-image {
+  height: 120px;
+  width: 100%;
+  border-radius: 0 0px 10px 10px;
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  mask: url("https://res.cloudinary.com/xielabs/image/upload/c_scale,w_300/v1559459519/twitter-logo.png");
+  mask-repeat: no-repeat;
+  mask-size: cover;
+  mask-position: 10px 33%;
 }
 
 @media only screen and (max-width: 600px) {

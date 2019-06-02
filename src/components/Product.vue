@@ -1,8 +1,8 @@
 <template>
   <div class="product">
     <div class="left">
-      <a v-if="hasLink(product)" class="icon" v-bind:href="getUrl(product)"></a>
-      <a v-else class="icon disabled"></a>
+      <a v-if="hasLink(product)" class="icon" v-bind:href="getUrl(product)" v-bind:style="`background-image: url(${product.icon})`"></a>
+      <a v-else class="icon disabled" v-bind:style="`background-image: url(${product.icon})`"></a>
     </div>
     <div class="right">
       <h1>{{product.name}}</h1>
@@ -56,6 +56,8 @@ export default {
   color:white;
   font-weight: 900;
   display: block;
+  background-size: 45px;
+  background-position: center;
 }
 
 .icon:hover {
