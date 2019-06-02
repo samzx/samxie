@@ -63,7 +63,7 @@ export default {
   border-radius: 0 0px 10px 10px;
   background-color: #21D4FD;
   background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-  mask: url("https://res.cloudinary.com/xielabs/image/upload/c_scale,w_300/v1559459519/blog-logo.png");
+  mask: url("https://res.cloudinary.com/xielabs/image/upload/c_scale,w_600/v1559459519/blog-logo.png");
   mask-repeat: no-repeat;
   mask-size: 200px;
   mask-position: 55px 20%;
@@ -75,7 +75,7 @@ export default {
   border-radius: 0 0px 10px 10px;
   background-color: #21D4FD;
   background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-  mask: url("https://res.cloudinary.com/xielabs/image/upload/c_scale,w_300/v1559459519/twitter-logo.png");
+  mask: url("https://res.cloudinary.com/xielabs/image/upload/c_scale,w_600/v1559459519/twitter-logo.png");
   mask-repeat: no-repeat;
   mask-size: cover;
   mask-position: 10px 33%;
