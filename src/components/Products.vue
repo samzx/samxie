@@ -12,6 +12,16 @@ import Product from './Product.vue'
 
 const products = [
   {
+    name: "Final Slash VR",
+    icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_90/v1560002222/Slash.png",
+    descriptions: ["A short survival experience on an abandonded planet."],
+    links: [
+      {
+        name: "Coming Soon"
+      }
+    ]
+  },
+  {
     name: "GradPlanner",
     icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_90/v1559457508/gradplanner.png",
     descriptions: ["Helping graduating students find jobs."],
