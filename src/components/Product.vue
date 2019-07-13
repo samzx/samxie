@@ -11,7 +11,7 @@
       </div>
       <div class="links">
         <div v-for="(link, index) in product.links" :key="`product-link-${index}`" class="link">
-          <a v-if="link.url" v-bind:href="link.url" class="button">{{link.name}}</a>
+          <a v-if="link.url" v-bind:href="link.url" class="button linked">{{link.name}}</a>
           <a v-else class="button disabled">{{link.name}}</a>
         </div>
       </div>
@@ -71,7 +71,6 @@ a.disabled {
 a.disabled:hover {
   color: grey;
   cursor: not-allowed;
-  box-shadow: 0 0 0 0 rgba(0,0,0,0);
 }
 
 .product {
@@ -90,6 +89,10 @@ a.disabled:hover {
   min-width: 200px;
 }
 
+.links {
+  margin-left: -5px;
+}
+
 .link {
   display: inline-block;
 }
@@ -97,15 +100,32 @@ a.disabled:hover {
 .button {
   margin-right: 10px;
   margin-bottom: 10px;
-  padding: 5px 10px;
-  border-radius: 5px;
-  border: 1px solid #ddd;
+  padding: 5px 5px;
+  border: 1px solid #fff;
+  color: #4e6f90;
   display: inline-block;
   transition: all 0.3s;
+  position: relative;
+}
+
+.linked::after {
+  width: 0%;
+  content: "";
+  height: 1px;
+  background: #4e6f90;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: width 0.3s;
+}
+
+.linked:hover::after {
+  width: 100%;
 }
 
 .button:hover {
-  box-shadow: 0 0 5px 2px rgba(0,0,0,0.05);
+  /* box-shadow: 0 0 5px 2px rgba(0,0,0,0.05); */
+  transition: all 0.3s;
 }
 
 </style>
