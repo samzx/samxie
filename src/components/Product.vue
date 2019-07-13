@@ -50,13 +50,13 @@ export default {
   margin: 0.67em auto;
   font-size: 2em;
   transition: box-shadow 0.3s, transform 0.3s;
-  background-color: #21D4FD;
+  background-color: white;
   background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
   text-align: center;
   color:white;
   font-weight: 900;
   display: block;
-  background-size: 45px;
+  background-size: cover;
   background-position: center;
 }
 

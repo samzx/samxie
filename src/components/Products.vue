@@ -13,17 +13,18 @@ import Product from './Product.vue'
 const products = [
   {
     name: "Final Slash VR",
-    icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_90/v1560002222/Slash.png",
+    icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_90/v1563021446/1.png", 
     descriptions: ["A short survival experience on an abandonded planet."],
     links: [
       {
-        name: "Coming Soon"
+        name: "Proof of Concept",
+        url: "https://samzx.itch.io/final-slash-vr"
       }
     ]
   },
   {
     name: "GradPlanner",
-    icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_90/v1559457508/gradplanner.png",
+    icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_90/v1563021826/favicon-gradplanner.png",
     descriptions: ["Helping graduating students find jobs."],
     links: [
       {
@@ -33,7 +34,7 @@ const products = [
   },
   {
     name: "MPHWatch",
-    icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_90/v1559457507/MPHWatch_logo.png",
+    icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_90/v1563022381/mphwatch-icon.png",
     descriptions: ["Stats for cryptocurrency miners mining on Mining Pool Hub.", "Clean and simple interface for monitoring mining activity."],
     links: [
       {
@@ -56,7 +57,7 @@ const products = [
   },
   {
     name: "BookIT Maps",
-    icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_90/v1559457508/bookitmaps-logo.png",
+    icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_90/v1563022111/bookitmaps.png",
     descriptions: ["BookIT Maps guides users to find the location of their bookings through an interactive map."],
     links: [
       {
