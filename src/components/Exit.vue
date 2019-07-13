@@ -2,7 +2,7 @@
   <div class="exit main">
     <h1 class="title">Perspectives</h1>
     <div class="card">
-      <a class="left" href="/blog">
+      <a class="left" href="https://medium.com/@samxie">
         <div class="text">
           <h1>Blog</h1>
           <p>The journey of an indie maker</p>
@@ -63,10 +63,10 @@ export default {
   border-radius: 0 0px 10px 10px;
   background-color: #21D4FD;
   background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-  mask: url("https://res.cloudinary.com/xielabs/image/upload/c_scale,w_600/v1559459519/blog-logo.png");
+  mask: url("https://res.cloudinary.com/xielabs/image/upload/c_scale,w_600/v1563012170/medium-logo.png");
   mask-repeat: no-repeat;
-  mask-size: 200px;
-  mask-position: 55px 20%;
+  mask-size: 180px;
+  mask-position: 75px 33%;
 }
 
 .twitter-image {
