@@ -46,10 +46,10 @@ export default {
   height: 45px;
   width: 45px;
   border-radius: 5px;
-  box-shadow: -5px 5px 5px 2px rgba(0,0,0,0.1);
+  box-shadow: -5px 5px 20px 2px rgba(0,0,0,0.1);
   margin: 0.67em auto;
   font-size: 2em;
-  transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s, transform 0.3s;
   background-color: #21D4FD;
   background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
   text-align: center;
@@ -61,7 +61,8 @@ export default {
 }
 
 .icon:hover {
-  box-shadow: 0 0 5px 2px rgba(0,0,0,0.1);
+  box-shadow: -5px 5px 5px 2px rgba(0,0,0,0.1);
+  /* box-shadow: 0 0 5px 2px rgba(0,0,0,0.1); */
 }
 
 a.disabled {
