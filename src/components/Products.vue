@@ -50,7 +50,7 @@ const products = [
       },
       {
         name: "Retro",
-        url: "https://www.samxie.net/blog/mphwatch-retrospective/"
+        url: "https://medium.com/@samxie/mphwatch-retrospective-ebf33c070bda"
       }
     ]
   },
@@ -69,7 +69,7 @@ const products = [
       },
       {
         name: "Retro",
-        url: "https://www.samxie.net/blog/bookit-maps-retrospective/"
+        url: "https://medium.com/@samxie/bookit-maps-retrospective-96c4ec6dd289"
       }
     ]
   }
