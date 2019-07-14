@@ -28,7 +28,8 @@ const products = [
     descriptions: ["Helping graduating students find jobs."],
     links: [
       {
-        name: "Coming Soon"
+        name: "Proof of Concept",
+        url: "http://gradplanner.samxie.net/"
       }
     ]
   },
@@ -71,6 +72,21 @@ const products = [
       {
         name: "Retro",
         url: "https://medium.com/@samxie/bookit-maps-retrospective-96c4ec6dd289"
+      }
+    ]
+  },
+  {
+    name: "Zendesk Ticket Viewer",
+    icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_90/v1563090058/zendesk-cc.jpg",
+    descriptions: ["My submission for the Zendesk coding challenge."],
+    links: [
+      {
+        name: "Demo",
+        url: "http://zendeskcc.samxie.net/demo"
+      },
+      {
+        name: "Github",
+        url: "https://github.com/samzx/zendesk-coding-challenge"
       }
     ]
   }
