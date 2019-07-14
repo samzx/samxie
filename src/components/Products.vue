@@ -13,7 +13,7 @@ import Product from './Product.vue'
 const products = [
   {
     name: "Final Slash VR",
-    icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_90/v1563021446/1.png", 
+    icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_90/v1560002222/Slash.png",
     descriptions: ["A short survival experience on an abandonded planet."],
     links: [
       {
@@ -24,7 +24,7 @@ const products = [
   },
   {
     name: "GradPlanner",
-    icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_90/v1563021826/favicon-gradplanner.png",
+    icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_90/v1563105252/favicon-gradplanner-trans.png",
     descriptions: ["Helping graduating students find jobs."],
     links: [
       {
@@ -58,7 +58,7 @@ const products = [
   },
   {
     name: "BookIT Maps",
-    icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_90/v1563022111/bookitmaps.png",
+    icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_90/v1563105254/bookitmaps-white.png",
     descriptions: ["BookIT Maps guides users to find the location of their bookings through an interactive map."],
     links: [
       {

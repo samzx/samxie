@@ -101,7 +101,6 @@ a.disabled:hover {
   margin-right: 10px;
   margin-bottom: 10px;
   padding: 5px 5px;
-  border: 1px solid #fff;
   color: #4e6f90;
   display: inline-block;
   transition: all 0.3s;
