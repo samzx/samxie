@@ -1,4 +1,5 @@
 <template>
+<AppContainer>
   <div class="exit main">
     <h1 class="title">Perspectives</h1>
     <div class="card">
@@ -18,11 +19,17 @@
       </a>
     </div>
   </div>
+</AppContainer>
 </template>
 
 <script>
+import AppContainer from './AppContainer'
+
 export default {
-  name: 'Exit'
+  name: 'Exit',
+  components: {
+    AppContainer
+  }
 }
 </script>
 
