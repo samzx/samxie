@@ -21,7 +21,7 @@ export default {
 
 <style scoped>
 .right-inner {
-  height: 66%;
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -38,7 +38,7 @@ export default {
   height: 180px;
   width: 180px;
   border-radius: 100px;
-  background: white;
+  background: #fafafa;
   position: absolute;
   top: 30px;
 }

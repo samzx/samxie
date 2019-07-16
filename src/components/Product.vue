@@ -5,7 +5,9 @@
       <a v-else class="icon disabled" v-bind:style="`background-image: url(${product.icon})`"></a>
     </div>
     <div class="right">
-      <h1>{{product.name}}</h1>
+      <h1><a v-bind:href="getUrl(product)">{{product.name}}</a></h1>
+      <!-- <img class="screenshots" v-bind:src="product.image" alt=""> -->
+      <!-- <div class="tags" v-for="(tag, index) in product.tags" :key="`product-tag-${index}`">{{tag}}</div> -->
       <div v-for="(description, index) in product.descriptions" :key="`product-desctiption-${index}`">
         <p>{{description}}</p>
       </div>
@@ -64,15 +66,6 @@ export default {
   box-shadow: -5px 5px 5px 2px rgba(0,0,0,0.1);
 }
 
-a.disabled {
-  color: grey;
-}
-
-a.disabled:hover {
-  color: grey;
-  cursor: not-allowed;
-}
-
 .product {
   display: flex;
   flex-wrap: wrap;
@@ -122,9 +115,27 @@ a.disabled:hover {
   width: 100%;
 }
 
-.button:hover {
-  /* box-shadow: 0 0 5px 2px rgba(0,0,0,0.05); */
-  transition: all 0.3s;
+.disabled {
+  color: grey;
 }
 
+.disabled:hover {
+  color: grey;
+  cursor: not-allowed;
+}
+
+.screenshots {
+  width: 100%;
+  margin: 20px auto;
+  box-shadow: 0 0 20px 20px rgba(0,0,0,0.02);
+}
+
+.tags{
+  display: inline-block;
+  box-shadow: 0 0 0px 1px rgba(0,0,0,0.1);
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: monospace;
+}
 </style>

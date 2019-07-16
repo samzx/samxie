@@ -1,7 +1,7 @@
 <template>
 <AppContainer>
   <div class="exit main">
-    <h1 class="title">Perspectives</h1>
+    <h1 class="title">Join me on my journey.</h1>
     <div class="card">
       <a class="left" href="https://medium.com/@samxie">
         <div class="text">

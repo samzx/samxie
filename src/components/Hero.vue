@@ -3,11 +3,11 @@
     <div class="hero-container">
       <div class="hero main">
         <div class="left">
-          <h1 class="title">Hey, I'm Sam</h1>
+          <h1 class="title">Hey, I'm Sam 👋</h1>
           <h1>
           </h1>
           <h2>I design, develop and launch new products.</h2>
-          <h2>Check out my projects below.</h2>
+          <h2><b><a href="/#products">Check out my projects below.</a></b></h2>
         </div>
         <div class="right">
           <Disk/>
@@ -35,13 +35,18 @@ export default {
   font-size: 4em;
 }
 
+b {
+  font-weight: 900;
+}
+
 .app-container--hero {
-background: linear-gradient(0deg, #fafafa, #fff)
+  /* background: linear-gradient(0deg, #fafafa, #fafafa); */
+  background: #fafafa;
 }
 
 .hero-container {
-  height: calc(100vh - 120px);
-  max-height: 720px;
+  height: 100vh;
+  max-height: 800px;
   min-height: 600px;
   display: flex;
   justify-content: center;
@@ -61,8 +66,8 @@ background: linear-gradient(0deg, #fafafa, #fff)
 .right {
   flex: 1;
   min-width: 300px;
-  min-height: 300px;
-  margin: 20px;
+  min-height: 250px;
+  margin: 30px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -71,7 +76,7 @@ background: linear-gradient(0deg, #fafafa, #fff)
 
 @media only screen and (max-width: 600px) {
   .hero-container {
-    height: auto;
+    /* height: auto; */
   }
 
   .left,
@@ -80,8 +85,12 @@ background: linear-gradient(0deg, #fafafa, #fff)
     margin-right: 0;
   }
 
+  h2 {
+    font-size: 1.25em;
+  }
+
   .right {
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
   }
 
   .hero {

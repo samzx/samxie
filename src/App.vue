@@ -38,10 +38,8 @@ a {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   margin: 0px auto;
-  padding-top: 50px;
   padding-bottom: 100px;
   line-height: 1.4;
-  /* background: #eee; */
 }
 
 .title {
@@ -54,7 +52,7 @@ a {
 
 @media only screen and (max-width: 600px) {
   .title {
-    font-size: 3em;
+    font-size: 2.5em;
   }
   .main {
     padding: 20px 20px;
