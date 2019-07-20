@@ -3,14 +3,14 @@
     <Hero/>
     <a id="products"/>
     <Products/>
-    <Exit />
+    <Exit/>
   </div>
 </template>
 
 <script>
-import Hero from './components/Hero.vue'
-import Products from './components/Products.vue'
-import Exit from './components/Exit.vue'
+import Hero from './components/Hero'
+import Products from './components/Products'
+import Exit from './components/Exit'
 
 export default {
   name: 'app',

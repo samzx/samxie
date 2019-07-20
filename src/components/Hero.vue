@@ -7,7 +7,7 @@
           <h1>
           </h1>
           <h2>I design, develop and launch new products.</h2>
-          <h2><b><a href="/#products">Check out my projects below.</a></b></h2>
+          <h2><a href="/#products" class="link">Check out my projects below.</a></h2>
         </div>
         <div class="right">
           <Disk/>
@@ -35,8 +35,8 @@ export default {
   font-size: 4em;
 }
 
-b {
-  font-weight: 900;
+.link {
+  color: #4e6f90;
 }
 
 .app-container--hero {
@@ -59,7 +59,7 @@ b {
 }
 
 .left {
-  flex: 1;
+  flex: 1.05;
   min-width: 300px;
 }
 
