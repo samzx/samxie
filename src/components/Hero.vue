@@ -59,7 +59,7 @@ export default {
 }
 
 .left {
-  flex: 1.05;
+  flex: 1.09;
   min-width: 300px;
 }
 
