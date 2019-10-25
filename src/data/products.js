@@ -1,7 +1,24 @@
 export default [
   {
+    name: "Boulder Gyms",
+    icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_90/v1571559370/BoulderGymLogo.png",
+    descriptions: ["Exploring bouldering gyms just got easier."],
+    tags: ["Unity3D", "VR", "C#"],
+    image: "https://res.cloudinary.com/xielabs/image/upload/v1563021446/1.png",
+    links: [
+      {
+        name: "Let's go",
+        url: "https://bouldergyms.com"
+      },
+      {
+        name: "Landing",
+        url: "https://bouldergyms.com/about"
+      }
+    ]
+  },
+  {
     name: "Final Slash VR",
-    icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_90/v1560002222/Slash.png",
+    icon: "https://en.oculusbrand.com/wp-content/themes/oculus-branding/images/oculus.png",
     descriptions: ["A short survival experience on an abandoned planet."],
     tags: ["Unity3D", "VR", "C#"],
     image: "https://res.cloudinary.com/xielabs/image/upload/v1563021446/1.png",
@@ -20,7 +37,7 @@ export default [
     image: "https://res.cloudinary.com/xielabs/image/upload/v1555684088/Screen_Shot_2019-04-20_at_12.27.03_am.png",
     links: [
       {
-        name: "Proof of Concept",
+        name: "Landing",
         url: "http://gradplanner.samxie.net/"
       }
     ]
@@ -33,8 +50,8 @@ export default [
     image: "https://res.cloudinary.com/xielabs/image/upload/v1541582260/mphwatch.png",
     links: [
       {
-        name: "Login",
-        url: "https://mphwatch.samxie.net"
+        name: "Landing",
+        url: "https://mphwatch.samxie.net/landing"
       },
       {
         name: "Demo",
