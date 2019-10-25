@@ -18,7 +18,7 @@ export default [
   },
   {
     name: "Final Slash VR",
-    icon: "https://en.oculusbrand.com/wp-content/themes/oculus-branding/images/oculus.png",
+    icon: "https://res.cloudinary.com/xielabs/image/upload/v1572007468/oculus.png",
     descriptions: ["A short survival experience on an abandoned planet."],
     tags: ["Unity3D", "VR", "C#"],
     image: "https://res.cloudinary.com/xielabs/image/upload/v1563021446/1.png",
