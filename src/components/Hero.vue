@@ -3,7 +3,7 @@
     <div class="hero-container">
       <div class="hero main">
         <div class="left">
-          <h1 class="title">Hey, I'm Sam 👋</h1>
+          <h1 class="title">Hey, I'm Sam.</h1>
           <h1>
           </h1>
           <h2>I design, develop and launch new products.</h2>
@@ -59,7 +59,7 @@ export default {
 }
 
 .left {
-  flex: 1.09;
+  flex: 1;
   min-width: 300px;
 }
 

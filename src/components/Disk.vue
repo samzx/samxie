@@ -41,6 +41,8 @@ export default {
   background: #fafafa;
   position: absolute;
   top: 30px;
+  background: url(https://res.cloudinary.com/xielabs/image/upload/v1572005981/giphy.gif);
+  background-size: cover;
 }
 
 .circle-inner {
