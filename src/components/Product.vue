@@ -1,11 +1,11 @@
 <template>
   <div class="product">
     <div class="left">
-      <a v-if="hasLink(product)" class="icon" v-bind:href="getUrl(product)" v-bind:style="`background-image: url(${product.icon})`"></a>
+      <a v-if="hasLink(product)" class="icon" v-bind:href="getUrl(product)" target="_blank" v-bind:style="`background-image: url(${product.icon})`"></a>
       <a v-else class="icon disabled" v-bind:style="`background-image: url(${product.icon})`"></a>
     </div>
     <div class="right">
-      <h1><a v-bind:href="getUrl(product)">{{product.name}}</a></h1>
+      <h1><a v-bind:href="getUrl(product)" target="_blank">{{product.name}}</a></h1>
       <!-- <img class="screenshots" v-bind:src="product.image" alt=""> -->
       <!-- <div class="tags" v-for="(tag, index) in product.tags" :key="`product-tag-${index}`">{{tag}}</div> -->
       <div v-for="(description, index) in product.descriptions" :key="`product-desctiption-${index}`">
@@ -13,7 +13,7 @@
       </div>
       <div class="links">
         <div v-for="(link, index) in product.links" :key="`product-link-${index}`" class="link">
-          <a v-if="link.url" v-bind:href="link.url" class="button linked">{{link.name}}</a>
+          <a v-if="link.url" v-bind:href="link.url" target="_blank" class="button linked">{{link.name}}</a>
           <a v-else class="button disabled">{{link.name}}</a>
         </div>
       </div>

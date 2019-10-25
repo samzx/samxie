@@ -7,7 +7,7 @@
     </div>
     <div>
       <p class="more">
-        <a href="https://github.com/samzx" class="linked">More on Github</a>
+        <a href="https://github.com/samzx" target="_blank" class="linked">More on Github</a>
       </p>
     </div>
   </div>

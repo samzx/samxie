@@ -3,14 +3,14 @@
   <div class="exit main">
     <h1 class="title">Join me on my journey.</h1>
     <div class="card">
-      <a class="left" href="https://medium.com/@samxie">
+      <a class="left" href="https://medium.com/@samxie" target="_blank">
         <div class="text">
           <h1>Blog</h1>
           <p>The journey of an indie maker</p>
         </div>
         <div class="background-image blog-image"></div>
       </a>
-      <a class="right" href="https://twitter.com/samxstudio">
+      <a class="right" href="https://twitter.com/samxstudio" target="_blank">
         <div class="text">
           <h1>Twitter</h1>
           <p>@samxstudio</p>
