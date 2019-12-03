@@ -1,6 +1,8 @@
-# samxie
+# Sam Xie
 
-<img src="https://res.cloudinary.com/xielabs/image/upload/v1572048416/sloth-screen.png" />
+<img src="https://res.cloudinary.com/xielabs/image/upload/v1575375053/samxie-home.png" />
+
+Personal website landing page.
 
 ## Project setup
 ```

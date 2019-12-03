@@ -6,7 +6,7 @@
       <a class="left" href="https://medium.com/@samxie" target="_blank">
         <div class="text">
           <h1>Blog</h1>
-          <p>The journey of an indie maker</p>
+          <p>@samxie</p>
         </div>
         <div class="background-image blog-image"></div>
       </a>
@@ -69,7 +69,7 @@ export default {
   width: 100%;
   border-radius: 0 0px 10px 10px;
   background-color: #21D4FD;
-  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  background-image: linear-gradient(19deg, #21D4FD 0%, #0a2d8d 100%);
   transition: transform 0.3s;
 }
 

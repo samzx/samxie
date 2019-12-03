@@ -4,6 +4,7 @@
     <a id="products"/>
     <Products/>
     <Exit/>
+    <a class="mail" href="mailto:contact@samxie.net">✉️</a>
   </div>
 </template>
 
@@ -23,6 +24,10 @@ export default {
 </script>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 }
@@ -38,7 +43,6 @@ a {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   margin: 0px auto;
-  padding-bottom: 100px;
   line-height: 1.4;
 }
 
@@ -50,6 +54,15 @@ a {
   padding: 50px 150px;
 }
 
+.mail {
+  position: sticky;
+  float: right;
+  bottom: 20px;
+  right: 20px;
+  padding: 5px;
+  font-size: 24px;
+}
+
 @media only screen and (max-width: 600px) {
   .title {
     font-size: 2.5em;
@@ -59,7 +72,6 @@ a {
   }
   #app {
     padding-top: 0;
-    padding-bottom: 0;
   }
 }
 

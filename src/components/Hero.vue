@@ -7,11 +7,9 @@
           <h1>
           </h1>
           <h2>I design, develop and launch new products.</h2>
-          <h2><a href="/#products" class="link">Check out my projects below.</a></h2>
+          <h2><a href="/#products" class="link">Check them out below.</a></h2>
         </div>
-        <div class="right">
-          <Disk/>
-        </div>
+        <img class="image" src="https://res.cloudinary.com/xielabs/image/upload/v1575374644/dark-gradient.svg" />
       </div>
     </div>
   </AppContainer>
@@ -19,28 +17,30 @@
 
 <script>
 import AppContainer from './AppContainer'
-import Disk from './Disk'
 export default {
   name: "Hero",
   components: {
-    AppContainer,
-    Disk
+    AppContainer
   }
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.image {
+  max-height: 300px;
+  max-width: 100%;
+  margin: 10px;
+}
 #title {
   font-size: 4em;
 }
 
 .link {
-  color: #4e6f90;
+  color: #2b79a8;
 }
 
 .app-container--hero {
-  /* background: linear-gradient(0deg, #fafafa, #fafafa); */
   background: #fafafa;
 }
 
