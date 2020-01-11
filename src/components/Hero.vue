@@ -3,13 +3,15 @@
     <div class="hero-container">
       <div class="hero main">
         <div class="left">
-          <h1 class="title">Hey, I'm Sam.</h1>
-          <h1>
-          </h1>
-          <h2>I design, develop and launch new products.</h2>
-          <h2><a href="/#products" class="link">Check them out below.</a></h2>
+          <div>
+            <h1 class="title">Hey, I'm Sam.</h1>
+            <h2>I design, develop and launch new products.</h2>
+            <h2><a href="/#products" class="link">Check them out below.</a></h2>
+          </div>
         </div>
-        <img class="image" src="https://res.cloudinary.com/xielabs/image/upload/v1575374644/dark-gradient.svg" />
+        <div class="right image-container">
+          <img class="image" src="https://res.cloudinary.com/xielabs/image/upload/v1575374644/dark-gradient.svg" />
+        </div>
       </div>
     </div>
   </AppContainer>
@@ -27,10 +29,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.image-container {
+  margin: 10px;
+  height: 300px;
+  width: 332px;
+}
 .image {
   max-height: 300px;
   max-width: 100%;
-  margin: 10px;
 }
 #title {
   font-size: 4em;
@@ -60,12 +66,15 @@ export default {
 
 .left {
   flex: 1;
-  min-width: 300px;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .right {
   flex: 1;
-  min-width: 300px;
+  min-width: 320px;
   min-height: 250px;
   margin: 30px;
   position: relative;
