@@ -44,6 +44,7 @@ a {
   color: #2c3e50;
   margin: 0px auto;
   line-height: 1.4;
+  min-width: 320px;
 }
 
 .title {

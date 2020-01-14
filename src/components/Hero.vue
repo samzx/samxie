@@ -92,6 +92,7 @@ export default {
   .right {
     margin-left: 0;
     margin-right: 0;
+    min-width: 100%;
   }
 
   h2 {

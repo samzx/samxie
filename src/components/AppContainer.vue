@@ -16,7 +16,6 @@ export default {
 <style scoped>
 .app-container {
   max-width: 1080px;
-  min-width: 320px;
   margin: auto;
 }
 </style>
