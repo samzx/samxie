@@ -1,5 +1,18 @@
 export default [
   {
+    name: "Charm.js",
+    icon: "https://res.cloudinary.com/xielabs/image/upload/v1580032618/charm-icon.png",
+    descriptions: ["Light and modular landing page template."],
+    tags: ["React", "Next.js"],
+    image: "https://res.cloudinary.com/xielabs/image/upload/v1563021446/1.png",
+    links: [
+      {
+        name: "Github",
+        url: "https://github.com/samzx/charm"
+      }
+    ]
+  },
+  {
     name: "Boulder Gyms",
     icon: "https://res.cloudinary.com/xielabs/image/upload/c_scale,w_90/v1571559370/BoulderGymLogo.png",
     descriptions: ["Exploring bouldering gyms just got easier."],
